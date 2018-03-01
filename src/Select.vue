@@ -253,7 +253,7 @@ export default {
       return this.values.indexOf(v) > -1
     },
     select (v, alt) {
-      this.$els.search.blur()
+      this.$els.select.blur()
       if (this.value instanceof Array) {
         if (~this.value.indexOf(v)) {
           this.value.$remove(v)
@@ -319,7 +319,7 @@ export default {
 
 <style scoped>
 div.form-control.dropdown-toggle{
-  height: auto;
+  /* height: auto; */
   padding-right: 24px;
   cursor: pointer;
 }
@@ -400,7 +400,7 @@ div>.close { margin-left: 5px; }
 }
 .open>.dropdown-menu {
   overflow-y: auto;
-  max-height: 2.5rem;
+  /* max-height: 2.5rem; */
 }
 .form-control.dropdown-toggle{
   border-radius: 5px;
