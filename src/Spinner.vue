@@ -126,7 +126,7 @@ export default {
 .spinner-gritcode .spinner-circle {
   position: relative;
   border: 4px solid #ccc;
-  border-right-color: #337ab7;
+  border-right-color: #f2c12d;
   border-radius: 50%;
   display: inline-block;
   animation: spin 0.6s linear;
@@ -142,7 +142,7 @@ export default {
   z-index: 2;
   width: 100%;
   font-size: 95%;
-  color: #337ab7;
+  color :#607d8a;
 }
 .spinner-gritcode.spinner-sm .spinner-circle {
   width: 1.5em;
