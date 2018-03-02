@@ -4564,7 +4564,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	
 	// module
-	exports.push([module.id, ".form-group[_v-f75b61e4] {\n  position: relative;\n}\nlabel~.close[_v-f75b61e4] {\n  top: 25px;\n}\n.input-group>.icon[_v-f75b61e4] {\n  position: relative;\n  display: table-cell;\n  width:0;\n  z-index: 3;\n}\n.close[_v-f75b61e4] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  z-index: 2;\n  display: block;\n  width: 34px;\n  height: 34px;\n  line-height: 34px;\n  text-align: center;\n}\n.has-feedback .close[_v-f75b61e4] {\n  right: 20px;\n}", ""]);
+	exports.push([module.id, ".form-group[_v-f75b61e4] {\n  position: relative;\n}\nlabel~.close[_v-f75b61e4] {\n  top: 25px;\n}\n.input-group>.icon[_v-f75b61e4] {\n  position: relative;\n  display: table-cell;\n  width:0;\n  z-index: 3;\n}\n.close[_v-f75b61e4] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  z-index: 2;\n  display: block;\n  width: 34px;\n  height: 34px;\n  /* line-height: 34px; */\n  text-align: center;\n}\n.has-feedback .close[_v-f75b61e4] {\n  right: 20px;\n}", ""]);
 	
 	// exports
 
@@ -4972,7 +4972,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	//   display: block;
 	//   width: 34px;
 	//   height: 34px;
-	//   line-height: 34px;
+	//   /* line-height: 34px; */
 	//   text-align: center;
 	// }
 	// .has-feedback .close {

@@ -340,7 +340,7 @@ label~.close {
   display: block;
   width: 34px;
   height: 34px;
-  line-height: 34px;
+  /* line-height: 34px; */
   text-align: center;
 }
 .has-feedback .close {
